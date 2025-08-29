@@ -1,0 +1,63 @@
+#cuerpo-comentarios {
+    background-image: url(https://previews.123rf.com/images/alexraths/alexraths1509/alexraths150900009/44625671-fije-la-tarjeta-de-men%C3%BA-para-restaurantes-en-el-fondo-de-madera.jpg);
+}
+
+h1 {
+    text-align: center;
+}
+
+p, h3 {
+    font-size: 19px;
+    color: bisque;
+}
+
+.principal-comentarios {
+    color: white;
+}
+
+.img-comentarios {
+    width: 500px;
+    height: 300px;
+}
+
+.articulo-comentario {
+    text-align: right;
+}
+
+.parrafo {
+    width: 500px;
+}
+
+.parrafo-derecha {
+    text-align: right;
+    padding-left: 62%;
+}
+
+.encabezado-izquierda {
+    width: 500px;
+    text-align: center;
+}
+
+.encabezado-derecha {
+    padding-right: 200px;
+}
+
+/*FOOTER*/
+.pie-pagina {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+
+/*selector especial*/
+.pie-pagina a {
+    color: lemonchiffon;
+}
+
+a:hover {
+    color: aqua;
+}
+
+a:active {
+    color: cornflowerblue;
+}

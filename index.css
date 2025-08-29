@@ -1,0 +1,180 @@
+body {
+    background-image: url(https://previews.123rf.com/images/alexraths/alexraths1509/alexraths150900031/44625709-fije-la-tarjeta-de-men%C3%BA-para-restaurantes-en-el-fondo-de-madera.jpg);
+    color: white;
+}
+
+main {
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+
+.principal img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    font-size: 18px;
+}
+
+figcaption {
+    font-size: 13px;
+    font-style: italic;
+}
+
+.titulo {
+    color: aqua;
+}
+
+.img-principales {
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rosybrown;
+}
+
+.img-secundarias {
+    border-radius: 10px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: burlywood;
+}
+
+/*FOOTER*/
+hr {
+    margin-top: 30px;
+    height: 3px;
+    background-color: gray;
+    border-color: gray;
+}
+
+a {
+    color: lemonchiffon;
+}
+
+a:hover {
+    color: cyan;
+}
+
+.formulario {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+
+.titulo-formulario {
+    text-align: center;
+}
+
+.boton-envio {
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    background-color: sienna;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block; /* Hace que el botón ocupe todo el ancho del contenedor */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.boton-envio:hover {
+    background-color: lightcoral;
+}
+
+.pie-de-pagina {
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px auto 20px auto;
+    max-width: 800px;
+}
+
+.pie-de-pagina footer p {
+    font-size: 13px;
+}
+
+.pie-de-pagina footer a {
+    color: lemonchiffon;
+    font-style: italic;
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+/* Estilos para el menú de la izquierda */
+.izquierda {
+    display: flex;
+    justify-content: flex-start; /* Alinea horizontalmente a la izquierda */
+    align-items: center; /* Alinea verticalmente al centro */
+}
+
+.izquierda p {
+    margin: 0;
+}
+
+/* Estilos para el menú del centro */
+.centrado {
+    display: flex;
+    justify-content: center; /* Alinea horizontalmente al centro */
+    align-items: center; /* Alinea verticalmente al centro */
+}
+
+.centrado a {
+    display: flex;
+    justify-content: center; /* Alinea horizontalmente al centro */
+    align-items: center; /* Alinea verticalmente al centro */
+}
+
+.centrado p {
+    margin: 0;
+    padding-left: 90px; /* Espacio a la izquierda del texto */
+}
+
+/* Estilos para el menú de la derecha */
+.derecha {
+    display: flex;
+    justify-content: flex-end; /* Alinea horizontalmente a la derecha */
+    align-items: center; /* Alinea verticalmente al centro */
+    float: right;
+}
+
+.derecha a {
+    display: flex;
+    justify-content: flex-end; /* Alinea horizontalmente a la derecha */
+    align-items: center; /* Alinea verticalmente al centro */
+}
+
+.derecha p {
+    margin: 0;
+}
+
+/* Estilos para los elementos dentro de los menús */
+.izquierda, .derecha, .centrado {
+    width: 25%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    display: inline-block; /* Permite que los elementos se alineen uno al lado del otro */
+    vertical-align: top; /* Alinea los elementos en la parte superior */
+    margin-right: 20px;
+}
